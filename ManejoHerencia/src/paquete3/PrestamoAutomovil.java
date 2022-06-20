@@ -5,10 +5,16 @@
  */
 package paquete3;
 
+import paquete2.Prestamo;
+import paquete1.Persona;
+
 /**
  *
  * @author reroes
  */
-public class PrestamoAutomovil {
-    
+public class PrestamoAutomovil extends Prestamo {
+
+    public PrestamoAutomovil(String t, String m, double v, Prestamo nm, Persona g) {
+        
+    }
 }
